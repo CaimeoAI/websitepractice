@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+
+  </head>
+  <body style="background-image: url(https://images.unsplash.com/photo-1627618996178-360a71be868d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);background-size: 100%;">
+    <header>
+      <nav>
+        <div class="menucontainer">
+       
+          <div id="menubox">
+
+            <input type="checkbox"/>
+
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="menu">
+              <li><a href="cssfonts.html">CSS Fonts</a></li>
+              <li><a href="css-1.html">CSS-1</a></li>
+              <li><a href="html-doc.html">HTML Doc</a></li>
+              <li><a href="html-table.html">HTML Table</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="navcontainer">
+    
+          <table cellpadding="10" align="center">
+            <thead>
+              <th class="navlinks">
+                <a href="../index.html">
+                  <h2>Home</h2>
+                </a>
+              </th>
+              
+              <th class="navlinks">
+                <a href="../html/video.html">
+                  <h2>Video</h2>
+                </a>
+              </th>
+              
+              <th class="navlinks">
+                <a href="../html/contacts.html">
+                  <h2>Contact</h2>
+                </a>
+              </th>
+              
+              <th class="navlinks">
+                <a href="../html/aboutus.html">
+                  <h2>About us</h2>
+                </a>
+              </th>
+              
+              <th align="left">
+                <form action="" style="border-left: black 4px solid; padding: 1em;">
+                  <input id="username" name="username" type="text" placeholder="Username" required>
+                  <input type="password" id="password" name="password" type="text" placeholder="Password" required>
+                  <input type="submit" value="Log in">
+                </form>
+              </th>
+            </tr>
+          </table>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <p id="headline">.</p>
+          <h1><b>Contact</b></h1>
+          <div class="grid">
+            <div class="gmaps">
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45234.87026509193!2d-113.50979143977825!3d53.50663945133659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01f46f1f1a2b9%3A0x8c51da51ac6836fc!2sSouthgate%20Mall!5e0!3m2!1sde!2sde!4v1636497798036!5m2!1sde!2sde" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+              </iframe>
+            </div>
+            <div class="formcell">
+              <form action="">
+
+                <fieldset style="width: 10%;" class="field">
+                  <legend>Personal Information</legend>
+                  <label for="firstname">First Name</label>
+                  <input type="text" placeholder="First Name" id="firstname" name="firstname" maxlength="10">
+                  <br>
+                  <br>
+                  <label for="lastname">Last Name</label>
+                  <input type="text" placeholder="Last Name" id="lastname" name="lastname" minlength="3">
+                </fieldset>  
+
+                <br>
+      
+                <fieldset style="width: 10%;" class="field">
+                  <legend>Log in</legend>
+                  <label for="email">eMail</label>
+                  <input type="email" placeholder="eMail" id="email" name="lastname" required>
+                  <br>
+                  <br>
+                  <label for="password">Password</label>
+                  <input type="password" placeholder="Password" id="password" name="password" required>
+                </fieldset>
+
+                <br>
+                
+                <fieldset  class="field">
+                  <legend>Questions?</legend>
+                  <br>
+                  <textarea placeholder="Ask us anything..." rows="12" cols="120" id="question" name="question"></textarea>
+                </fieldset>
+
+                <br>
+
+                <fieldset  style="width: 15%;" class="field">
+                  <legend>Survey</legend>
+                  <p><b>Your favorite dish:</b></p>
+                  <input type="checkbox" name="lasagna" id="lasagna">
+                  <label for="lasagna" style="display: inline;">Lasagna</label>
+                  <input type="checkbox" name="fries" id="fries">
+                  <label for="fries" style="display: inline;">Fries</label>
+                  <input type="checkbox" name="pasta" id="pasta">
+                  <label for="pasta" style="display: inline;">Pasta</label>
+                
+                  <br>
+
+                  <p><b>Do you like James Bond?</b></p>
+                  <input type="radio" id="yes" name="yesno" value="yes">
+                  <label for="yes" style="display: inline;">YES</label>
+                  <input type="radio" id="no" name="yesno" value="no">
+                  <label for="yes" style="display: inline;">NO</label>
+
+                  <br>
+                  <br>
+
+                  <input type="submit" value="SUBMIT">
+                </fieldset>
+
+              </form>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+        </article>
+      </section>
+
+      <section>
+        <center>
+        <a href="#headline" class="backtotop">
+            <img src="https://ps.w.org/wpfront-scroll-top/assets/icon-256x256.png?rev=1534312" style="opacity: 100%;width: 50px;height: 50px;">
+        </a>
+        </center>
+        </section>
+        
+    </main>
+  </body>
+</html>

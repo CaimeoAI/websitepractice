@@ -1,0 +1,7 @@
+.paraclass {
+    color: red;
+}
+
+.paraclass:nth-child(2){
+    color: blue;
+}

@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+.navcontainer {
+  font-family: "Courier New", Courier, monospace;
+  position: fixed;
+  top: 4px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 20%;
+  opacity: 60%;
+}
+.navcontainer:hover {
+  opacity: 100%;
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.backtotop {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 10%;
+}
+.navlinks {
+  color: gray;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1533509163308-cddb96eda6aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2127&q=80);
+  background-attachment: fixed;
+}
+.vidgrid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 1em;
+  grid-row-gap: 3em;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.vidcell {
+  align-self: right;
+  justify-self: right;
+}
+.vidtext {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-top: 4px solid rgb(255, 255, 255);
+  opacity: 50%;
+}
+.vidtext:hover {
+  opacity: 100%;
+}
+#menubox span {
+  background-color: rgb(255, 255, 255);
+}

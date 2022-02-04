@@ -1,0 +1,41 @@
+fieldset {
+  width: 50%;
+  margin-left: 25%;
+  color: gray;
+  background-color: white;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  width: 300px;
+  color: black;
+}
+p,
+legend {
+  color: black;
+}
+legend {
+  text-transform: uppercase;
+  border: 1px;
+  border-style: solid;
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.gmaps {
+  display: inline;
+  align-self: right;
+  justify-self: right;
+}
+.formcell {
+  align-self: left;
+  justify-self: left;
+}
+.field {
+  opacity: 80%;
+}
+.field:hover {
+  opacity: 100%;
+}

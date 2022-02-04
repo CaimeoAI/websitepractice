@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*   border: 2px solid red;
+ */}
+
+nav {
+  background-color: #1e2124;
+  height: 3em;
+  position: fixed;
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 13px;
+    text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.navback {
+  margin-right: 1.5em;
+  border-radius: 30px;
+  opacity: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  color: #c4c4c4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 2px solid red;
+}
+
+nav a:hover {
+    color: white;
+    transition: color 0.5s ease;
+}
+nav a:active {
+    color: #7289da;
+}
+.searchbar {
+    padding: 15px;
+    
+}
+
+body {
+    background-color: #424549;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topcontent,.maincontent,.endcontent {
+    margin-top: 4em;
+    border: 3px solid rgb(255, 255, 255);
+    width: 100%;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maincontent p {
+    border: 1px solid red;
+}
+
+.mcp1,.mcp2,.mcp3 {
+  width:33%;
+  height: 100%;
+  padding: 10px;
+
+}
